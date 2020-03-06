@@ -1,0 +1,89 @@
+body,html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 70px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	color: rgb(42,198,187);
+}
+#box{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	/* border-radius: 25px; */
+	/* border: 3px solid; */
+}
+#header{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+.form_obj{
+	display: flex;
+	margin: 10px 0;
+}
+.form_obj>span {
+	flex: 1
+}
+.form_obj>div {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+}
+#header span{
+	display: inline-block;
+	text-align: right;
+	font-weight: 700;
+	width: 120px;
+	padding-right: 10px;
+}
+#header input{
+	width: 160px;
+	border-radius: 8px;
+	outline: none;
+	border: 2px solid #000;
+	/*margin-left: 80px;*/
+}
+
+#time .item {
+	width: 82px;
+}
+#time .item input {
+	width: 80px;
+}
+#footer{
+	width: calc(100% - 2px);
+	height: 70px;	
+	position: fixed;
+	bottom: 0;
+	border: 1px solid;
+}
+#footer h2{
+	text-align: center;
+	margin: 0 auto;
+	line-height: 70px;
+}
+#back {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	height: 33px;
+}
+#back img{
+	z-index: 10;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-left: 28px;
+	/* margin-top: 50px; */
+}
+.highColor{
+	background-color: rgb(42,198,187);
+}
