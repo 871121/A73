@@ -18,6 +18,18 @@ ga('send', 'pageview');
 </script>
 </head>
 <body>
+	{{#if viewAlt}}
+
+	{{else}}
+		<style>
+			header {
+				background-color: #2ac6bb!important;
+			}
+			header #titleT {
+				color: #fff;
+			}
+		</style>
+	{{/if}}
 <div id="box">
 	<header>
 		{{#if viewAlt}}
